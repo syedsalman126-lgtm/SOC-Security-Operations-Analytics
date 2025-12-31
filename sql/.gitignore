@@ -1,0 +1,7 @@
+# Editor & session files
+*.session.sql
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
