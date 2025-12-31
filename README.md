@@ -53,3 +53,17 @@ executive_summary.md
 This project demonstrates end-to-end SOC analytics, from alert generation
 to executive-level reporting, using realistic log data and structured detections.
 
+## MITRE ATT&CK Mapping
+
+This project aligns authentication-based detections with the MITRE ATT&CK framework.
+
+| Technique ID | Technique Name | SOC Level |
+|-------------|----------------|----------|
+| T1110 | Brute Force | L1 Monitoring |
+| T1078 | Valid Accounts | L2 Detection |
+| T1046 | Network Service Discovery (contextual) | L2 Investigation |
+
+### Mapping Explanation
+- Multiple failed login attempts map to **T1110 (Brute Force)**
+- Successful login after repeated failures indicates **T1078 (Valid Accounts)**
+- Incident aggregation and trends support **post-compromise analysis**

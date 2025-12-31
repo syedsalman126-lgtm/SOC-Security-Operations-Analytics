@@ -1,5 +1,7 @@
 -- L1 SOC Monitoring
--- Detect multiple failed login attempts (brute-force behavior)
+-- Purpose: Identify brute-force authentication attempts
+-- MITRE ATT&CK: T1110 (Brute Force)
+-- Alert Logic: Trigger when failed attempts exceed threshold
 
 SELECT
     username,

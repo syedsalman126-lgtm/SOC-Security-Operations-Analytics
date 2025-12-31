@@ -1,5 +1,7 @@
 -- L2 SOC Detection
--- Detect possible account compromise after brute-force attempts
+-- Purpose: Confirm account compromise
+-- MITRE ATT&CK: T1078 (Valid Accounts)
+-- Detection Logic: Failed logins followed by successful login
 
 WITH failed_logins AS (
     SELECT

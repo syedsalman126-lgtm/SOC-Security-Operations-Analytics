@@ -1,5 +1,6 @@
 -- L3 SOC Reporting
--- High-level authentication security overview
+-- Purpose: Management-level visibility and trend analysis
+-- Outcome: Supports risk reporting and control improvement
 
 SELECT
     event_type,
