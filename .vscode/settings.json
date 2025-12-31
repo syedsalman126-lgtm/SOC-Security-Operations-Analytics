@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "SOC-Security-Operations-Analytics",
+            "database": "SOC-Security-Operations-Analytics",
+            "username": "SOC-Security-Operations-Analytics"
+        }
+    ]
+}
